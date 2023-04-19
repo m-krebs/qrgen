@@ -1,0 +1,32 @@
+{
+  "name": "QRGEN",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This is a simple extension that generates QR codes from the current page's URL.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "QRGEN",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "commands": {
+    "open": {
+      "suggested_key": "Ctrl+Shift+Q",
+      "description": "Open QRGEN Overlay"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/js/content_script.js"], 
+      "document_start": true
+    }
+  ],
+  "web_accessible_resources": ["src/js/main.js", "src/page_action/page_action.html", "lib/davidshimjs-qrcodejs/qrcodejs.js"],
+  "permissions": ["activeTab"]
+}
