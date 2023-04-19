@@ -1,3 +1,5 @@
+// HELP: https://stackoverflow.com/questions/33144234/chrome-extension-geturl-not-working-in-injected-file
+
 // if you checked "fancy-settings" in extensionizr.com, uncomment this lines
 
 // var settings = new Store("settings", {
