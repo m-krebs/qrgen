@@ -2,7 +2,7 @@
   "name": "QRGEN",
   "version": "0.0.1",
   "manifest_version": 2,
-  "homepage_url": "https:github.com/m-krebs/qrgen",
+  "homepage_url": "https://github.com/m-krebs/qrgen",
   "description": "This is a simple extension that generates QR codes from the current page's URL.",
   "icons": {
     "16": "icons/icon16.png",
@@ -13,7 +13,7 @@
   "browser_action": {
     "default_icon": "icons/icon19.png",
     "default_title": "QRGEN",
-    "default_popup": "src/page_action/page_action.html"
+    "default_popup": "src/action.html"
   },
   "permissions": ["activeTab"]
 }
