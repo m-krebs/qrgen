@@ -1,6 +1,6 @@
 # QRGEN
 ## About this project
-Browser extension for Chrome, that gnerates a QR-Code for the current page's url.
+[Browser extension for Chrome](https://chrome.google.com/webstore/detail/qrgen/celhapemgmhhclbheiegnoeijimokpmg?hl=en-US), that gnerates a QR-Code for the current page's url.
 
 This extension is simply a wrapper for the great qrcode.min.js script of [davidshimjs](https://github.com/davidshimjs/qrcodejs). 
 Not more, not less. Great! 
@@ -13,7 +13,7 @@ Most of the QR-Code generators I used, were kinda overloaded with text and thing
 ## Usage
 You can use this image to add the extension to chrome [by yourself](https://support.google.com/chrome_webstore/answer/2664769?hl=en).
 
-Also you can [get the latest version]() of the chrome webstore.
+Also you can [get the latest version](https://chrome.google.com/webstore/detail/qrgen/celhapemgmhhclbheiegnoeijimokpmg?hl=en-US) on the chrome webstore.
 
 ## LICENSE
 <a href="http://www.wtfpl.net/"><img
