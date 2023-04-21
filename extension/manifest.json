@@ -9,11 +9,15 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "default_locale": "en",
   "action": {
     "default_icon": "icons/icon19.png",
     "default_title": "QRGEN",
     "default_popup": "src/action.html"
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab"],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": "Ctrl+Shift+Q"
+    }
+  }
 }
